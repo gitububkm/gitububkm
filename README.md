@@ -1,5 +1,4 @@
 ![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=200&section=header&text=Welcome%20to%20my%20GitHub!&fontSize=40&animation=fadeIn&fontAlignY=35)
-# Personal_Projects_Private
 # 👋 Привет, я gitububkm
 
 🎓 3 курс — Информационная безопасность  
