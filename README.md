@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=200&section=header&text=Welcome%20to%20my%20GitHub!&fontSize=40&animation=fadeIn&fontAlignY=35)
 # 👋 Привет, я gitububkm
-Добро пожаловать на мой персональный сайт — gitububkm.github.io
+Добро пожаловать на мой персональный сайт — **[gitububkm.github.io](https://gitububkm.github.io)**
 
 🎓 3 курс — Информационная безопасность  
 💻 Увлекаюсь **пентестом, CTF, DevSecOps и автоматизацией аудитов**  
