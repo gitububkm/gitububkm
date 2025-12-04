@@ -53,11 +53,11 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.demolab.com/?user=gitububkm&theme=radical" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=gitububkm&theme=radical&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gitububkm/gitububkm/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/gitububkm/gitububkm/output/dist/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </p>
 
 ---
@@ -76,3 +76,4 @@
 💡 Всегда открыт к коллаборациям по CTF, Open Source и Security-проектам!
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer)
+
