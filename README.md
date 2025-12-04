@@ -50,18 +50,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=gitububkm&theme=radical&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/gitububkm/gitububkm/output/dist/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-</p>
-
----
-
 ## 🎯 О себе
 - 💻 Люблю писать код, который **ищет уязвимости** и автоматизирует проверки  
 - 🏆 Участник CTF и соревнований по безопасности  
