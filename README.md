@@ -53,8 +53,13 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gitububkm&show_icons=true&theme=radical" alt="stats" height="150"/>
+  <img src="https://github-readme-streak-stats.demolab.com/?user=gitububkm&theme=radical" alt="GitHub Streak" />
 </p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gitububkm/gitububkm/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
+
 ---
 
 ## 🎯 О себе
