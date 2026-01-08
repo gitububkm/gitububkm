@@ -57,7 +57,7 @@
 - 🚀 Постоянно учусь и превращаю учебные проекты в **реальные рабочие инструменты**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/gitububkm/gitububkm/output/github-snake-dark.svg" alt="Snake animation" />
+	<img src="https://raw.githubusercontent.com/gitububkm/gitububkm/output/github-snake-dark.svg" alt="Snake animation"/>
 </div>
 
 
