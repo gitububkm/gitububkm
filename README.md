@@ -56,6 +56,10 @@
 - 🐧 Поклонник Linux и open-source инструментов  
 - 🚀 Постоянно учусь и превращаю учебные проекты в **реальные рабочие инструменты**
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/gitububkm/gitububkm/output/github-snake-dark.svg" alt="Snake animation" />
+</div>
+
 
 ## 🤝 Связь
 - 📫 Telegram: [@ububkmburry](https://t.me/ububkmburry)  
