@@ -9,10 +9,13 @@
 
 ---
 
-## 🎧 Восхитительная песня
+## 🎧 Любимая музыка
 
 [![Spotify readme card](https://gitububkm.vercel.app/api/readme-spotify)](https://open.spotify.com/track/5rgy6ghBq1eRApCkeUdJXf)
 
+### Мой ТОП-3
+
+[![Spotify top 3](https://gitububkm.vercel.app/api/readme-spotify-top)](https://open.spotify.com/)
 ---
 
 ## 🛠️ Стек технологий
