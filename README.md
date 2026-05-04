@@ -13,17 +13,7 @@
 
 ## 🎧 Музыка
 
-Живая карточка Spotify в стиле [andyruwruw](https://github.com/andyruwruw/andyruwruw) рендерится этим же репозиторием через [Vercel](https://vercel.com/) (`api/readme-spotify.ts` → SVG с обложкой, прогрессом и «эквалайзером»).
-
 [![Spotify readme card](https://gitububkm-spotify-readme.vercel.app/api/readme-spotify)](https://open.spotify.com/track/5rgy6ghBq1eRApCkeUdJXf)
-
-Пока домен **`gitububkm-spotify-readme.vercel.app`** не ваш: зайди в Vercel → **Add New Project** → импорт этого репо → имя проекта задай **`gitububkm-spotify-readme`** (или поменяй URL в строке выше на свой **`https://<твой-проект>.vercel.app/api/readme-spotify`**). В **Settings → Environment Variables** добавь из [`.env.example`](.env.example):
-
-- **`SPOTIFY_CLIENT_ID`** и **`SPOTIFY_CLIENT_SECRET`** — из [Spotify Developer Dashboard](https://developer.spotify.com/dashboard) *(обязательно; этого достаточно, чтобы всегда показывать [We Are Young](https://open.spotify.com/track/5rgy6ghBq1eRApCkeUdJXf))*  
-- **`SPOTIFY_REFRESH_TOKEN`** — опционально, со scope `user-read-currently-playing`: тогда на карте будет **то, что реально играет** *(как у Andrew; получение refresh — по их [HOW-IT-WORKS](https://github.com/andyruwruw/andyruwruw/blob/master/HOW-IT-WORKS.md) или любым oauth-скриптом для Spotify)*  
-- **`SPOTIFY_FEATURED_TRACK_ID`** — если хочешь другой дефолтный трек вместо We Are Young
-
-Редеплой после сохранения переменных — и картинка в README начнёт открываться.
 
 ---
 
