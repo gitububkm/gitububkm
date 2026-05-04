@@ -11,7 +11,7 @@
 
 ## 🎧 Восхитительная песня
 
-[![Spotify readme card](https://gitububkm-spotify-readme.vercel.app/api/readme-spotify)](https://open.spotify.com/track/5rgy6ghBq1eRApCkeUdJXf)
+[![Spotify readme card](https://gitububkm.vercel.app/api/readme-spotify)](https://open.spotify.com/track/5rgy6ghBq1eRApCkeUdJXf)
 
 ---
 
