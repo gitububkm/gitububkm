@@ -59,19 +59,27 @@ function renderTop3(opts: {
 }): string {
   const { tracks, covers, rangeKey } = opts;
   const w = 800;
-  const h = 268;
+  const rowStart = 78;
+  const rowStep = 64;
+  const rowCardH = 58;
+  const lastRowTop = rowStart + (tracks.length - 1) * rowStep;
+  const footerPad = 28;
+  const h = lastRowTop + rowCardH + footerPad;
   const label = RANGE_LABEL[rangeKey] ?? rangeKey;
 
   const clipDefs = tracks
     .map((_, i) => {
-      const y = 86 + i * 58;
-      return `<clipPath id="ct${i}"><rect x="52" y="${y - 2}" width="52" height="52" rx="8"/></clipPath>`;
+      const top = rowStart + i * rowStep;
+      const imgY = top + 3;
+      return `<clipPath id="ct${i}"><rect x="52" y="${imgY}" width="52" height="52" rx="8"/></clipPath>`;
     })
     .join('');
 
   const rows = tracks
     .map((track, i) => {
-      const y = 86 + i * 58;
+      const top = rowStart + i * rowStep;
+      const imgY = top + 3;
+      const cy = top + rowCardH / 2;
       const rank = String(i + 1);
       const title =
         track.name.length > 42 ? `${track.name.slice(0, 40)}…` : track.name;
@@ -81,14 +89,16 @@ function renderTop3(opts: {
         artists.length > 48 ? `${artists.slice(0, 46)}…` : artists;
       const cover = covers[i] ?? '';
       return `
-  <rect x="12" y="${y - 10}" width="776" height="54" rx="12" fill="#181818" stroke="#282828"/>
-  <circle cx="32" cy="${y + 24}" r="14" fill="#1DB954"/>
-  <text x="32" y="${y + 29}" fill="#121212" text-anchor="middle" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">${rank}</text>
-  <image clip-path="url(#ct${i})" href="${cover}" x="52" y="${y - 2}" width="52" height="52" preserveAspectRatio="xMidYMid slice"/>
-  <text x="120" y="${y + 14}" fill="#FFFFFF" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">${escapeXml(title)}</text>
-  <text x="120" y="${y + 36}" fill="#B3B3B3" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">${escapeXml(art)}</text>`;
+  <rect x="12" y="${top}" width="776" height="${rowCardH}" rx="12" fill="#181818" stroke="#282828"/>
+  <circle cx="32" cy="${cy}" r="14" fill="#1DB954"/>
+  <text x="32" y="${cy + 5}" fill="#121212" text-anchor="middle" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">${rank}</text>
+  <image clip-path="url(#ct${i})" href="${cover}" x="52" y="${imgY}" width="52" height="52" preserveAspectRatio="xMidYMid slice"/>
+  <text x="120" y="${top + 24}" fill="#FFFFFF" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">${escapeXml(title)}</text>
+  <text x="120" y="${top + 44}" fill="#B3B3B3" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">${escapeXml(art)}</text>`;
     })
     .join('');
+
+  const brandY = h - 14;
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="Top 3 tracks">
@@ -104,7 +114,7 @@ function renderTop3(opts: {
   <text x="24" y="40" fill="#FFFFFF" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700">Топ-3 треков</text>
   <text x="24" y="62" fill="#B3B3B3" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">${escapeXml(label)} · обновляется при открытии профиля</text>
   ${rows}
-  <text x="24" y="${h - 14}" fill="#1DB954" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">SPOTIFY</text>
+  <text x="768" y="${brandY}" text-anchor="end" fill="#1DB954" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">SPOTIFY</text>
 </svg>`;
 }
 
