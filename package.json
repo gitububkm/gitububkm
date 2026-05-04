@@ -1,0 +1,14 @@
+{
+  "name": "gitububkm-profile",
+  "private": true,
+  "description": "GitHub profile README + Vercel API for Spotify SVG card",
+  "scripts": {
+    "vercel-build": "echo 'no static build'"
+  },
+  "dependencies": {
+    "@vercel/node": "^3.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

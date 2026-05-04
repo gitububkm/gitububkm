@@ -1,10 +1,30 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=200&section=header&text=Welcome%20to%20my%20GitHub!&fontSize=40&animation=fadeIn&fontAlignY=35)
-# 👋 Привет, я gitububkm
-Добро пожаловать на мой персональный сайт — **[gitububkm.github.io](https://gitububkm.github.io)**
+![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=200&section=header&text=gitububkm&fontSize=40&animation=fadeIn&fontAlignY=35)
 
-🎓 3 курс — Информационная безопасность  
-💻 Увлекаюсь **пентестом, CTF, DevSecOps и автоматизацией аудитов**  
-🚀 Развиваю GitHub, делаю проекты «из учебных → в реальные инструменты»  
+# 👋 Привет, я gitububkm
+
+🎓 **Студент [Университета ИТМО](https://itmo.ru/)**, факультет **«Безопасность информационных технологий»**  
+
+В профильном направлении опираюсь на практический бэкенгрейд по инфобезу: хорошо знаю **сети**, уверенно разбираюсь в **мониторинге** и **контроле состояния** инфраструктуры, глубоко ориентируюсь в **уязвимостях** и методах их выявления.
+
+Персональный сайт — **[gitububkm.github.io](https://gitububkm.github.io)**  
+Развиваю GitHub и перевожу учебные задачи в **реальные security-инструменты**.
+
+---
+
+## 🎧 Музыка
+
+Живая карточка Spotify в стиле [andyruwruw](https://github.com/andyruwruw/andyruwruw) рендерится этим же репозиторием через [Vercel](https://vercel.com/) (`api/readme-spotify.ts` → SVG с обложкой, прогрессом и «эквалайзером»).
+
+[![Spotify readme card](https://gitububkm-spotify-readme.vercel.app/api/readme-spotify)](https://open.spotify.com/track/5rgy6ghBq1eRApCkeUdJXf)
+
+Пока домен **`gitububkm-spotify-readme.vercel.app`** не ваш: зайди в Vercel → **Add New Project** → импорт этого репо → имя проекта задай **`gitububkm-spotify-readme`** (или поменяй URL в строке выше на свой **`https://<твой-проект>.vercel.app/api/readme-spotify`**). В **Settings → Environment Variables** добавь из [`.env.example`](.env.example):
+
+- **`SPOTIFY_CLIENT_ID`** и **`SPOTIFY_CLIENT_SECRET`** — из [Spotify Developer Dashboard](https://developer.spotify.com/dashboard) *(обязательно; этого достаточно, чтобы всегда показывать [We Are Young](https://open.spotify.com/track/5rgy6ghBq1eRApCkeUdJXf))*  
+- **`SPOTIFY_REFRESH_TOKEN`** — опционально, со scope `user-read-currently-playing`: тогда на карте будет **то, что реально играет** *(как у Andrew; получение refresh — по их [HOW-IT-WORKS](https://github.com/andyruwruw/andyruwruw/blob/master/HOW-IT-WORKS.md) или любым oauth-скриптом для Spotify)*  
+- **`SPOTIFY_FEATURED_TRACK_ID`** — если хочешь другой дефолтный трек вместо We Are Young
+
+Редеплой после сохранения переменных — и картинка в README начнёт открываться.
+
 ---
 
 ## 🛠️ Стек технологий
@@ -51,21 +71,24 @@
 ---
 
 ## 🎯 О себе
-- 💻 Люблю писать код, который **ищет уязвимости** и автоматизирует проверки  
-- 🏆 Участник CTF и соревнований по безопасности  
-- 🐧 Поклонник Linux и open-source инструментов  
-- 🚀 Постоянно учусь и превращаю учебные проекты в **реальные рабочие инструменты**
+
+- 📡 Сильные стороны: **сети**, **мониторинг**, работа с **уязвимостями** и практический **пентест**
+- 💻 Люблю код, который **находит проблемы** и автоматизирует проверки
+- 🏆 Участник **CTF** и соревнований по информационной безопасности
+- 🐧 **Linux**, open-source и прозрачные пайплайны разработки
+- 🚀 Постоянно учусь и довожу проекты до **рабочего** состояния
 
 <div align="center">
 	<img src="https://raw.githubusercontent.com/gitububkm/gitububkm/main/output/github-snake-dark.svg" alt="Snake animation"/>
 </div>
 
+---
 
 ## 🤝 Связь
+
 - 📫 Telegram: [@ububkmburry](https://t.me/ububkmburry)  
 - ✉️ Email: ububkmart@gmail.com  
 
-💡 Всегда открыт к коллаборациям по CTF, Open Source и Security-проектам!
+Открыт к коллаборациям по **CTF**, **Open Source** и **security-проектам**.
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer)
-
