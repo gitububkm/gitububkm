@@ -1,5 +1,3 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=200&section=header&text=gitububkm&fontSize=40&animation=fadeIn&fontAlignY=35)
-
 # 👋 Привет, я gitububkm
 
 🎓 **Студент [Университета ИТМО](https://itmo.ru/)**, факультет **«Безопасность информационных технологий»**  
@@ -11,7 +9,7 @@
 
 ---
 
-## 🎧 Музыка
+## 🎧 Восхитительная песня
 
 [![Spotify readme card](https://gitububkm-spotify-readme.vercel.app/api/readme-spotify)](https://open.spotify.com/track/5rgy6ghBq1eRApCkeUdJXf)
 
@@ -80,5 +78,3 @@
 - ✉️ Email: ububkmart@gmail.com  
 
 Открыт к коллаборациям по **CTF**, **Open Source** и **security-проектам**.
-
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer)
